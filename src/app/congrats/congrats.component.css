@@ -1,0 +1,15 @@
+.imag-holder {
+    text-align: center;
+    background-image: url(../../assets/bg.png);
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size: cover;
+}
+
+.imag {
+    width: 90%;
+    margin-top: 200px;
+    margin-bottom: 200px;
+    border-radius: 20px;
+}
+

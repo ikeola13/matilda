@@ -1,1 +1,62 @@
 /* You can add global styles to this file, and also import other style files */
+@font-face {
+    font-family: myFirstFont;
+    src: url(assets/Tomatoes-O8L8.ttf);
+  }
+
+body {
+    margin: 0 !important;
+    font-family: myFirstFont;
+    background-color: rgba(154,21,24,255);
+}
+.background {
+  width: 30%;
+  margin: 0 auto;
+  padding: 30px;
+  /* border: 1px solid black; */
+  background-image: url(../src/assets/img.jpg);
+  background-repeat: no-repeat;
+}
+
+.title {
+  font-size: 30px;
+  text-align: center;
+  padding-top: 50px;
+  color: white;
+}
+
+.ans {
+  text-align: center;
+  margin-top: 300px;
+  margin-bottom: 100px;
+}
+
+.ans-txt {
+  color: white;
+  font-size: 20px;
+  width: 100%;
+  padding: 10px;
+}
+
+.modal-body {
+  text-align: center;
+  color: rgba(154,21,24,255);
+}
+
+.bodyy {
+  padding: 30px !important;
+  text-align: center;
+}
+
+@media only screen and (max-width: 600px) {
+  .background {
+      width: 100%;
+      margin: 0 auto;
+      padding: 30px;
+      /* border: 1px solid black; */
+      background-image: url(../src/assets/img.jpg);
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size: cover;
+  }
+}
