@@ -4,7 +4,7 @@ import { AskComponent } from './ask/ask.component';
 import { CongratsComponent } from './congrats/congrats.component';
 
 const routes: Routes = [
-  { path: '', redirectTo: 'ask', pathMatch: 'full' },
+  { path: '', component: AskComponent },
   { path: 'ask', component: AskComponent },
   { path: 'congrats', component:  CongratsComponent},
 ];
